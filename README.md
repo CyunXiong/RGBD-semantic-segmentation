@@ -1,6 +1,18 @@
 # RGBD-semantic-segmentation
 A paper list of RGBD semantic segmentation.
 
+
+Metrics
+The papers related to metrics used mainly in RGBD semantic segmentation are as follows.
+
+[IoU cla.] intersection over union class
+[iIoU cla.] instance intersection over union class
+[IoU cat.] intersection over union class
+[IoU cat.] intersection over union category
+[iIoU cat.] instance intersection over union category
+[mIoU] Mean intersection over union
+
+
 cityscape
 |           Method           |   IoU cla.  |   iIoU cla. |  IoU cat.  |  iIoU cat.  | Input |    Ref. from    |  Published  | Year |     mIoU    |   pixel Acc  |
 | :------------------------: | :---------: | :---------: | :--------: | :---------: | :---: | :-------------: | :---------: | ---- |   :------:  |   :------:   |
@@ -14,12 +26,12 @@ cityscape
 |   **Mutex  Constraints**   |    63.8     |    31.5     |            | 48.5        | RGBD |                 |    ICCV     | 2015 |
 |          **E2S2**          |    58.1     |    52.9     |     31     |       44.2  | RGBD  |    **STD2P**    |    ECCV     | 2016 |
 |        **BI-3000**         |    58.9     |    39.3     |    27.7    |        43   | RGBD  |    **STD2P**    |    ECCV     | 2016 |
-|        **BI-1000**         |    57.7     |    37.8     |    27.1    |       41.9  | RGBD  |    **STD2P**    |    ECCV     | 2016 |
-|      **LCSF-Deconv**       |             |    47.3     |            |             | RGBD  |                 |    ECCV     | 2016 |
-|        **LSTM-CF**         |             |    49.4     |            |             | RGBD  |                 |    ECCV     | 2016 |
-|      **CRF+RF+RFS**        |    73.8     |             |            |             | RGBD  |                 |    IEEE     | 2020 |
-|      **Malleable 2.5D**    |             |             |            |             | RGBD  |                 |    CVPR     | 2020 |  80.81（kernels=3）|     96.51     |
-|        **SANet**           |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |   :------:  |   :------:   |
-|       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |     68.2    |   :------:   |
+|        **RFNet**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |    72.5    |             |
+|      **BCMFP+SA-Gate**     |             |             |            |             | RGBD  |                 |    ECCV     | 2020 |    82.8    |             |
+|          **VCD**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |    82.3    |             | 
+|      **RRL**               |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |            |             |
+|      **Malleable 2.5D**    |             |             |            |             | RGBD  |                 |    CVPR     | 2020 |    80.81   |   96.51     |
+|          **SANet**         |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |  :------:  |   :------:  |
+|       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |   :------:  |
 
 scanet
