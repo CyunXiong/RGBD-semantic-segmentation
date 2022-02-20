@@ -2,8 +2,8 @@
 A paper list of RGBD semantic segmentation.
 
 cityscape
-|           Method           |   PixAcc    |    mAcc     |    mIoU    |     f.w.IOU      | Input |    Ref. from    |  Published  | Year |
-| :------------------------: | :---------: | :---------: | :--------: | :--------------: | :---: | :-------------: | :---------: | ---- |
+|           Method           |   PixAcc    |    mAcc     |    mIoU    |     f.w.IOU      | Input |    Ref. from    |  Published  | Year | Disparity error |
+| :------------------------: | :---------: | :---------: | :--------: | :--------------: | :---: | :-------------: | :---------: | ---- |    :--------:   |
 |          **POR**           |    59.1     |    28.4     |    29.1    |                  | RGBD  |                 |    CVPR     | 2013 |
 |       **RGBD R-CNN**       |    60.3     |    35.1     |    31.3    |  47(in LSD-GF)   | RGBD  |                 |    ECCV     | 2014 |
 |       **DeconvNet**        |    69.9     |    56.4     |    42.7    |        56        |  RGB  |   **LSD-GF**    |    ICCV     | 2015 |
@@ -19,7 +19,7 @@ cityscape
 |        **LSTM-CF**         |             |    49.4     |            |                  | RGBD  |                 |    ECCV     | 2016 |
 |      **CRF+RF+RFS**        |    73.8     |             |            |                  | RGBD  |                 |     PRL     | 2016 |
 |       **RDFNet-152**       |     76      |    62.8     |    50.1    |                  | RGBD  |                 |    ICCV     | 2017 |
-|     **SCN-ResNet152**      |             |             |    49.6    |                  | RGBD  |                 |    ICCV     | 2017 |
-|       **RDFNet-50**        |    74.8     |    60.4     |    47.7    |                  | RGBD  |                 |    ICCV     | 2017 |
+|     **SCN-ResNet152**      |             |             |    49.6    |                  | RGBD  |                 |    ICCV     | 2017 |    :--------:   |
+|       **SOSD-Net**         |             |             |    68.2    |                  | RGBD  |                 |    CVPR     | 2021 |       2.41      |
 
 scanet
