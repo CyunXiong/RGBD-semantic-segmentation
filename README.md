@@ -37,7 +37,6 @@ cityscape
 scanet
 |  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU| 
 | :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|
-
 | MCA-Net | 0.533 |**0.756**|**0.746**|**0.590**|0.334|**0.506**|0.670|**0.587**|0.500|**0.905**|**0.366**|0.352|0.601|**0.506**|0.669|**0.648**|**0.501**|0.839|0.769|0.516|IEEE Transactions|2020|**0.595**|
 |  bookshelf |
 |     cabinet    |
