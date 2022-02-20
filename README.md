@@ -37,7 +37,7 @@ cityscape
 scanet
 |  Method  |bathtub | bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |shower |curtain |sink |sofa |table |Published |Year|mIoU| 
 | :------: | :----: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :----: | :--:| :-: |:----:| :------: |:--:|:--:|
-|  MCA-Net |  0.533 |0.756|   0.746   |  0.590  | 0.334 |
+|  MCA-Net |  0.533 |**0.756**|   0.746  |  0.590 | 0.334|
 |   bed      |
 |  bookshelf |
 |     cabinet    |
