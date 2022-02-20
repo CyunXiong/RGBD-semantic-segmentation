@@ -35,8 +35,8 @@ cityscape
 |       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |             |
 
 scanet
-|  Method  |bathtub |bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |shower |curtain |sink |sofa |table |Year | mIoU | 
-| :------: | :----: |:--:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :----: | :--:| :-: |:----:| :-: | :--: |
+|  Method  |bathtub |bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |shower |curtain |sink |sofa |table |Published |Year|mIoU| 
+| :------: | :----: |:--:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :----: | :--:| :-: |:----:| :------: |:--:|:--:|
 |   bathtub  |  0.533  |0.756|   0.746   |  0.590  | 0.334 |
 |   bed      |
 |  bookshelf |
