@@ -31,7 +31,32 @@ cityscape
 |          **VCD**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |    82.3    |             | 
 |      **RRL**               |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |            |             |
 |      **Malleable 2.5D**    |             |             |            |             | RGBD  |                 |    CVPR     | 2020 |    80.81   |   96.51     |
-|          **SANet**         |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |  :------:  |   :------:  |
-|       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |   :------:  |
+|          **SANet**         |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |            |             |
+|       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |             |
 
 scanet
+|  Method  | bathtub | bed | bookshelf | cabinet | chair | counter | curtain | desk | door | floor |otherfurniture| refrigerator | shower | curtain | sink | sofa | table | Year |     mIoU    | 
+| :------: | :-----: |:---:| :-------: | :-----: | :---: | :-----: | :-----: | :--: | :---:| :------:  |   :------:   |
+|   bathtub  |  0.533  |0.756|   0.746   |  0.590  | 0.334 |
+|   bed      |
+|  bookshelf |
+|     cabinet    |
+|     chair      |
+|     counter    |
+|     curtain    |
+|     desk       |
+|     door       |
+|     floor       |
+| otherfurniture |
+|   refrigerator |
+|     shower     |
+|     curtain    |
+|     sink       |
+|     sofa       |
+|     table      |
+|     toilet     |
+|     wall       |
+|     window     |
+|    59.1     |    28.4     |    29.1    |             | RGBD  |                 |    CVPR     | 2013 |
+
+
