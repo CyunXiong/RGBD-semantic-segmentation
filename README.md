@@ -24,7 +24,7 @@ Cityscape
 |           **CRF-RNN**         |   66.3   |   48.9    |   35.4   |      51   | RGBD  |   **STD2P**   |    ICCV   | 2015 |
 |      **Multi-Scale  CNN**     |   65.6   |   45.1    |   34.1   |     51.4  |  RGB  |**LCSF-Deconv**|    ICCV   | 2015 |
 |             **FCN**           |          |   46.1    |    34    |     49.5  | RGBD  |**LCSF-Deconv**|    CVPR   | 2015 |                      |          |     |        |     |
-|     **Mutex  Constraints**    |          |   31.5    |          | 48.5      | RGBD  |               |    ICCV   | 2015 |                      |          |     |        |     |
+|      **RefineNet-Res101**     |          |           |          |           |  RGB  |               |   TPAMI   | 2020 |      73.6[IoU]       |          |     |        |     |
 |**ESANeT-R18-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |     71.48[Val]       |          |     |        |37.2 |
 |**ESANeT-R34-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |72.70[Val] 72.87[Test]|          |     |        |32.3 |
 |   **ESANeT-R50[1024x512]**    |          |           |          |           |  RGB  |               |    ICRA   | 2020 |      73.88[Val]      |          |     |        |24.9 |
