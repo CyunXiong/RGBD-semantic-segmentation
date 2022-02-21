@@ -13,7 +13,7 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 [mIoU] Mean intersection over union
 
 
-cityscape
+Cityscape
 |           Method           |   IoU cla.  |   iIoU cla. |  IoU cat.  |  iIoU cat.  | Input |    Ref. from    |  Published  | Year |     mIoU    |   pixel Acc  |
 | :------------------------: | :---------: | :---------: | :--------: | :---------: | :---: | :-------------: | :---------: | ---- |   :------:  |   :------:   |
 |          **POR**           |    59.1     |    28.4     |    29.1    |             | RGBD  |                 |    CVPR     | 2013 |
@@ -34,7 +34,7 @@ cityscape
 |          **SANet**         |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |            |             |
 |       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |             |
 
-scanet
+ScaNet
 |  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU| 
 | :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|
 |**MCA-Net**|0.533|**0.756**|**0.746**|**0.590**|0.334|**0.506**|0.670|**0.587**|0.500|**0.905**|**0.366**|0.352|0.601|**0.506**|0.669|**0.648**|**0.501**|0.839|0.769|0.516|IEEE Transactions|2020|**0.595**|
