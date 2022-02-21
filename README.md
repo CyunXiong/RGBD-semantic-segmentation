@@ -13,6 +13,7 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 - **[mIoU]** Mean intersection over union
 - **[PixAcc]**  Pixel  accuracy
 - **[AP]**  Average Precision 
+- **[P]** group of depth privileged segmentation methods
 
 Cityscape
 |              Method           | IoU cla. | iIoU cla. | IoU cat. | iIoU cat. | Input |   Ref. from   | Published | Year |         mIoU         | pixel Acc|  AP | AP[val]| FPS |
@@ -23,7 +24,7 @@ Cityscape
 |           **DeepLab**         |   68.7   |   46.9    |   36.8   |     52.5  | RGBD  |   **STD2P**   |    ICLR   | 2015 |
 |           **CRF-RNN**         |   66.3   |   48.9    |   35.4   |      51   | RGBD  |   **STD2P**   |    ICCV   | 2015 |
 |      **Multi-Scale  CNN**     |   65.6   |   45.1    |   34.1   |     51.4  |  RGB  |**LCSF-Deconv**|    ICCV   | 2015 |
-|             **FCN**           |          |   46.1    |    34    |     49.5  | RGBD  |**LCSF-Deconv**|    CVPR   | 2015 |                      |          |     |        |     |
+|            **[P]-HPM**        |          |           |          |           |  RGB  |               |    IEEE   | 2020 |      83.38[IoU]      |          |     |        |     |
 |      **RefineNet-Res101**     |          |           |          |           |  RGB  |               |   TPAMI   | 2020 |      73.6[IoU]       |          |     |        |     |
 |**ESANeT-R18-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |     71.48[Val]       |          |     |        |37.2 |
 |**ESANeT-R34-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |72.70[Val] 72.87[Test]|          |     |        |32.3 |
