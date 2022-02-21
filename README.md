@@ -12,11 +12,11 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 - **[iIoU cat.]** instance intersection over union category
 - **[mIoU]** Mean intersection over union
 - **[PixAcc]**  Pixel  accuracy
-
+- **[PixAcc]**  Average Precision 
 
 Cityscape
-|           Method           |   IoU cla.  |   iIoU cla. |  IoU cat.  |  iIoU cat.  | Input |    Ref. from    |  Published  | Year |     mIoU    |   pixel Acc  |
-| :------------------------: | :---------: | :---------: | :--------: | :---------: | :---: | :-------------: | :---------: | ---- |   :------:  |   :------:   |
+|           Method           |   IoU cla.  |   iIoU cla. |  IoU cat.  |  iIoU cat.  | Input |    Ref. from    |  Published  | Year |     mIoU    |   pixel Acc  | AP |
+| :------------------------: | :---------: | :---------: | :--------: | :---------: | :---: | :-------------: | :---------: | :--: |   :------:  |   :------:   | :: |
 |          **POR**           |    59.1     |    28.4     |    29.1    |             | RGBD  |                 |    CVPR     | 2013 |
 |       **RGBD R-CNN**       |    60.3     |    35.1     |    31.3    |47(in LSD-GF)| RGBD  |                 |    ECCV     | 2014 |
 |       **DeconvNet**        |    69.9     |    56.4     |    42.7    |        56   |  RGB  |   **LSD-GF**    |    ICCV     | 2015 |
