@@ -2,15 +2,16 @@
 A paper list of RGBD semantic segmentation.
 
 
-Metrics
+## Metrics
 The papers related to metrics used mainly in RGBD semantic segmentation are as follows.
 
-[IoU cla.] intersection over union class
-[iIoU cla.] instance intersection over union class
-[IoU cat.] intersection over union class
-[IoU cat.] intersection over union category
-[iIoU cat.] instance intersection over union category
-[mIoU] Mean intersection over union
+- **[IoU cla.]** intersection over union class
+- **[iIoU cla.]** instance intersection over union class
+- **[IoU cat.]** intersection over union class
+- **[IoU cat.]** intersection over union category
+- **[iIoU cat.]** instance intersection over union category
+- **[mIoU]** Mean intersection over union
+- **[PixAcc]**  Pixel  accuracy
 
 
 Cityscape
@@ -29,8 +30,9 @@ Cityscape
 |        **RFNet**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |    72.5    |             |
 |      **BCMFP+SA-Gate**     |             |             |            |             | RGBD  |                 |    ECCV     | 2020 |    82.8    |             |
 |          **VCD**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |    82.3    |             | 
-|      **RRL**               |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |            |             |
-|      **Malleable 2.5D**    |             |             |            |             | RGBD  |                 |    CVPR     | 2020 |    80.81   |   96.51     |
+|          **RRL**           |             |             |            |             | RGBD  |                 |    IEEE     | 2020 |            |             |
+|**Malleable2.5D(kernels=1)**|             |             |            |             | RGBD  |                 |    CVPR     | 2020 |    80.26   |   96.40     |
+|**Malleable2.5D(kernels=3)**|             |             |            |             | RGBD  |                 |    CVPR     | 2020 |    80.81   |   96.51     |
 |          **SANet**         |     80.9    |    59.6     |    91.4    |     80.2    | RGBD  |                 |    CVPR     | 2020 |            |             |
 |       **SOSD-Net**         |             |             |            |             | RGBD  |                 |    CVPR     | 2021 |    68.2    |             |
 
