@@ -47,7 +47,7 @@ Cityscape
 |            **SANet**          |   80.9   |   59.6    |   91.4   |    80.2   | RGBD  |               |    CVPR   | 2020 |                      |          |     |        |     |
 |         **SOSD-Net**          |          |           |          |           | RGBD  |               |    CVPR   | 2021 |          68.2        |          |     |        |     |
 
-ScaNet
+ScanNet
 |  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU|avg|Ref. from|Input|   
 | :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|:--:|:-------:|:--:|
 |**RFBNet**| | | | | | | | | | | | | | | | | | | | |IEEE SPL|2019|59.5| | |RGBD|
