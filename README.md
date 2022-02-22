@@ -19,10 +19,8 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 Cityscape
 |              Method           | IoU cla. | iIoU cla. | IoU cat. | iIoU cat. | Input |   Ref. from   | Published | Year |         mIoU         | pixel Acc|  AP | AP[val]| FPS |
 | :---------------------------: | :------: | :-------: | :------: | :-------: | :---: | :-----------: | :-------: | :--: | :------------------: |  :-----: |:---:|:-----: |:--: |
-|             **POR**           |   59.1   |   28.4    |   29.1   |           | RGBD  |               |    CVPR   | 2013 |                      |          |     |        |     |
-|          **RGBD R-CNN**       |   60.3   |   35.1    |   31.3   |           | RGBD  |               |    ECCV   | 2014 |                      |          |     |        |     |
-|          **DeconvNet**        |          |           |          |           |  RGB  |               |    CVPR   | 2018 |                      |          |     |        |     |
-|      **PAD-Net-ResNet101**    |   80.3   |   58.8    |   90.8   |     78.5  |  RGB  |               |    CVPR   | 2018 |        78.2[IoU]     |          |     |        |     |
+|      **loop2 (test-aug)**     |          |           |          |           |  RGB  |     **RSP***  |    CVPR   | 2018 |       78.2[IoU]      |          |     |        |     |
+|      **PAD-Net-ResNet101**    |   80.3   |   58.8    |   90.8   |     78.5  |  RGB  |               |    CVPR   | 2018 |                      |          |     |        |     |
 |      **RFBNet(ERFNetEnc)**    |          |           |          |           | RGBD  |               |  IEEE SPL | 2019 |72.0[Val]   69.7[Test]|          |     |        |     |
 |      **RFBNet(AdapNet++)**    |          |           |          |           | RGBD  |               |  IEEE SPL | 2019 |76.2[Val]   74.8[Test]|          |     |        |     |
 |         **AdapNet++**         |          |           |          |           | RGBD  |               |    IJCV   | 2019 |        80.80         |          |     |        |     |
