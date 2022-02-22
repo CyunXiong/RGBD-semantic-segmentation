@@ -23,7 +23,7 @@ Cityscape
 |          **DeconvNet**        |   69.9   |   56.4    |   42.7   |      56   |  RGB  |  **LSD-GF**   |    ICCV   | 2015 |                      |          |     |        |     |
 |           **DeepLab**         |   68.7   |   46.9    |   36.8   |     52.5  | RGBD  |   **STD2P**   |    ICLR   | 2015 |
 |           **CRF-RNN**         |   66.3   |   48.9    |   35.4   |      51   | RGBD  |   **STD2P**   |    ICCV   | 2015 |
-|      **Multi-Scale  CNN**     |   65.6   |   45.1    |   34.1   |     51.4  |  RGB  |**LCSF-Deconv**|    ICCV   | 2015 |
+|         **AdapNet++**         |          |           |          |           | RGBD  |               |    ICCV   | 2019 |
 |            **[P]-HPM**        |          |           |          |           |  RGB  |               |    IEEE   | 2020 |      83.38[IoU]      |          |     |        |     |
 |      **RefineNet-Res101**     |          |           |          |           |  RGB  |               |   TPAMI   | 2020 |      73.6[IoU]       |          |     |        |     |
 |**ESANeT-R18-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |     71.48[Val]       |          |     |        |37.2 |
