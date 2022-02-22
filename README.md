@@ -14,6 +14,7 @@ The papers related to metrics used mainly in RGBD semantic segmentation are as f
 - **[PixAcc]**  Pixel  accuracy
 - **[AP]**  Average Precision 
 - **[P]** group of depth privileged segmentation methods
+- **[avg]** mAP@0.5--mean Average Precision
 
 Cityscape
 |              Method           | IoU cla. | iIoU cla. | IoU cat. | iIoU cat. | Input |   Ref. from   | Published | Year |         mIoU         | pixel Acc|  AP | AP[val]| FPS |
@@ -48,11 +49,11 @@ Cityscape
 |         **SOSD-Net**          |          |           |          |           | RGBD  |               |    CVPR   | 2021 |          68.2        |          |     |        |     |
 
 ScaNet
-|  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU| 
-| :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|
-|**AdapNet++**|**68.65**|**60.72**|52.15|**46.48**|**58.89**|**32.79**|37.12|**39.66**|**55.15**|**80.41**|**31.46**|**54.54**|26.73|**54.88**|**54.91**|**55.12**|**58.42**|**81.92**|71.21|**37.18**|IJCV|2019|**52.92**|
+|  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU|avg| 
+| :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|:--:|
+|**AdapNet++**|**68.65**|**60.72**|52.15|**46.48**|**58.89**|**32.79**|37.12|**39.66**|**55.15**|**80.41**|**31.46**|**54.54**|26.73|**54.88**|**54.91**|**55.12**|**58.42**|**81.92**|71.21|**37.18**|IJCV|2019|**52.92**| |
 |**MCA-Net**|53.3|**75.6**|**74.6**|**59.0**|33.4|**50.6**|67.0|**58.7**|50.0|**90.5**|**36.6**|35.2|60.1|**50.6**|66.9|**64.8**|**50.1**|83.9|76.9|51.6|IEEE|2020|**59.5**|
-|     cabinet    |
+|**3D-SIS**|**66.7**|55.4|31.9| |
 |     chair      |
 |     counter    |
 |     curtain    |
