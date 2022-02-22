@@ -23,7 +23,7 @@ Cityscape
 |          **DeconvNet**        |   69.9   |   56.4    |   42.7   |      56   |  RGB  |  **LSD-GF**   |    ICCV   | 2015 |                      |          |     |        |     |
 |           **DeepLab**         |   68.7   |   46.9    |   36.8   |     52.5  | RGBD  |   **STD2P**   |    ICLR   | 2015 |
 |           **CRF-RNN**         |   66.3   |   48.9    |   35.4   |      51   | RGBD  |   **STD2P**   |    ICCV   | 2015 |
-|         **AdapNet++**         |          |           |          |           | RGBD  |               |    ICCV   | 2019 |
+|         **AdapNet++**         |          |           |          |           | RGBD  |               |    IJCV   | 2019 |        80.80         |          |     |        |     |
 |            **[P]-HPM**        |          |           |          |           |  RGB  |               |    IEEE   | 2020 |      83.38[IoU]      |          |     |        |     |
 |      **RefineNet-Res101**     |          |           |          |           |  RGB  |               |   TPAMI   | 2020 |      73.6[IoU]       |          |     |        |     |
 |**ESANeT-R18-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |     71.48[Val]       |          |     |        |37.2 |
@@ -50,8 +50,8 @@ Cityscape
 ScaNet
 |  Method |bathtub| bed |bookshelf |cabinet |chair |counter |curtain |desk |door |floor |otherfurniture |refrigerator |picture |shower curtain |sink |sofa |table |toilet |wall |window |Published|Year|mIoU| 
 | :-----: | :---: |:---:| :------: | :----: | :--: | :----: | :----: | :-: | :--:| :--: |   :-------:   |   :-----:   | :---: | :------------: | :--:| :-: |:----:| :----:|:--:|:---:|:-------:|:--:|:--:|
-|**MCA-Net**|0.533|**0.756**|**0.746**|**0.590**|0.334|**0.506**|0.670|**0.587**|0.500|**0.905**|**0.366**|0.352|0.601|**0.506**|0.669|**0.648**|**0.501**|0.839|0.769|0.516|IEEE Transactions|2020|**0.595**|
-|  bookshelf |
+|**MCA-|0.533|**0.756**|**0.746**|**0.590**|0.334|**0.506**|0.670|**0.587**|0.500|**0.905**|**0.366**|0.352|0.601|**0.506**|0.669|**0.648**|**0.501**|0.839|0.769|0.516|IEEE|2020|**0.595**|
+|**AdapNet++**|
 |     cabinet    |
 |     chair      |
 |     counter    |
