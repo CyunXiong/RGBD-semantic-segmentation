@@ -24,7 +24,7 @@ Cityscape
 |      **RFBNet(ERFNetEnc)**    |          |           |          |           | RGBD  |               |  IEEE SPL | 2019 |72.0[Val]   69.7[Test]|          |     |        |     |
 |      **RFBNet(AdapNet++)**    |          |           |          |           | RGBD  |               |  IEEE SPL | 2019 |76.2[Val]   74.8[Test]|          |     |        |     |
 |         **AdapNet++**         |          |           |          |           | RGBD  |               |    IJCV   | 2019 |        80.80         |          |     |        |     |
-|            **[P]-HPM**        |          |           |          |           |  RGB  |               |    IEEE   | 2020 |      83.38[IoU]      |          |     |        |     |
+|            **[P]-HPM**        |          |           |          |           |  RGB  |               |   IEEE TM  | 2020 |      83.38[IoU]      |          |     |        |     |
 |      **RefineNet-Res101**     |          |           |          |           |  RGB  |               |   TPAMI   | 2020 |      73.6[IoU]       |          |     |        |     |
 |**ESANet-R18-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |     71.48[Val]       |          |     |        |37.2 |
 |**ESANet-R34-NBt1D[1024x512]** |          |           |          |           |  RGB  |               |    ICRA   | 2020 |72.70[Val] 72.87[Test]|          |     |        |32.3 |
@@ -38,10 +38,10 @@ Cityscape
 |**ESANet-R18-NBt1D[2048x1024]**|          |           |          |           | RGBD  |               |    ICRA   | 2020 |      79.25[Val]      |          |     |        | 7.6 |
 |**ESANet-R34-NBt1D[2048x1024]**|          |           |          |           | RGBD  |               |    ICRA   | 2020 |80.09[Val] 78.42[Test]|          |     |        | 6.2 |
 |  **ESANet-R50[2048x1024]**    |          |           |          |           | RGBD  |               |    ICRA   | 2020 |      79.97[Val]      |          |     |        | 4.0 |
-|          **RFNet**            |          |           |          |           | RGBD  |               |    IEEE   | 2020 |         72.5         |          |     |        |     |
+|          **RFNet**            |          |           |          |           | RGBD  |               |  IEEE RAL | 2020 |         72.5         |          |     |        |     |
 |        **BCMFP+SA-Gate**      |          |           |          |           | RGBD  |               |    ECCV   | 2020 |         82.8         |          |     |        |     |
-|           **VCD**             |          |           |          |           | RGBD  |               |    IEEE   | 2020 |         82.3         |          |     |        |     | 
-|           **RRL**             |          |           |          |           | RGBD  |               |    IEEE   | 2020 |                      |          | 29.7|  35.2  |     |
+|           **VCD**             |          |           |          |           | RGBD  |               |    CVPR   | 2020 |         82.3         |          |     |        |     | 
+|           **RRL**             |          |           |          |           | RGBD  |               |     TIP   | 2020 |                      |          | 29.7|  35.2  |     |
 | **Malleable2.5D(kernels=1)**  |          |           |          |           | RGBD  |               |    CVPR   | 2020 |         80.26        |  96.40   |     |        |     |
 | **Malleable2.5D(kernels=3)**  |          |           |          |           | RGBD  |               |    CVPR   | 2020 |         80.81        |  96.51   |     |        |     |
 |            **SANet**          |   80.9   |   59.6    |   91.4   |    80.2   | RGBD  |               |    CVPR   | 2020 |                      |          |     |        |     |
